@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
             public void onClick(View v)  
             {  
                 Toast.makeText(MainActivity.this, "你点击了按钮1",Toast.LENGTH_LONG).show();  
+                //试试重写
             }  
         });  
     }
