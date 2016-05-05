@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         btnProduct = (Button)findViewById(R.id.button1);
         
         btnProduct.setText("testgit");
-        //test
+        //test∏“À¿∂”∑Á∏Ò
     }
 
 
