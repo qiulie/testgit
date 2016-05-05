@@ -8,8 +8,10 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 import android.os.Build;
 
 public class MainActivity extends Activity {
@@ -21,6 +23,13 @@ public class MainActivity extends Activity {
         btnProduct = (Button)findViewById(R.id.button1);
         
         btnProduct.setText("testgit");
+        btnProduct.setOnClickListener(new OnClickListener()  
+        {         
+            public void onClick(View v)  
+            {  
+                Toast.makeText(MainActivity.this, "Äãµã»÷ÁË°´Å¥1",Toast.LENGTH_LONG).show();  
+            }  
+        });  
     }
 
 
